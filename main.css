@@ -46,3 +46,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+#navbar{
+	background-color: rgb(255, 255, 255);
+	display:flex;
+	justify-content: space-between; /*eixo X horizontal*/
+	align-items: center; /*eixo Y vertical*/
+	width:100vw;
+	height: 5vh; /*altura*/
+	border: 1px solid;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+
+}
+#logo{
+	width: 10vw;
+}
+
+.container{
+	position: relative;
+}
+
+
+.overlayer{
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	text-align: center;
+	padding-bottom: 50px;
+	width: 100%;
+	
+}
+.imagefullscreen{
+	width: 100%;
+}
+body{
+	max-width: 100vw;
+
+}
+
